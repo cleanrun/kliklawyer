@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "435537829387",
+    "firebase_url": "https://kliklawyer.firebaseio.com",
+    "project_id": "kliklawyer",
+    "storage_bucket": "kliklawyer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435537829387:android:db89e8811691956488f10e",
+        "android_client_info": {
+          "package_name": "com.kliklawyer.kliklawyer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435537829387-vc95kopn0t99sf1mnalqiun20utticb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kliklawyer.kliklawyer",
+            "certificate_hash": "5cb678cd7e4f70896bbbd86180d6ccd6ed35db86"
+          }
+        },
+        {
+          "client_id": "435537829387-tnq8umg0obog4pqslqul6du2oit06c6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ866P1PXj7kEnr-BGEDN8BShM52qzToc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435537829387-tnq8umg0obog4pqslqul6du2oit06c6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
