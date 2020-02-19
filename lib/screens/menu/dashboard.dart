@@ -46,25 +46,6 @@ class _DashboardState extends State<DashboardPage>
       ProfilePage(),
     ];
     return Scaffold(
-        appBar: AppBar(
-          title: Text("APPS Bottom Navigation"),
-          actions: <Widget>[
-            PopupMenuButton<Choice>(
-              onSelected: _select,
-              itemBuilder: (BuildContext context) {
-                return choices.map((Choice choice) {
-                  return PopupMenuItem<Choice>(
-                    value: choice,
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: <Widget>[Icon(choice.icon), Text(choice.title)],
-                    ),
-                  );
-                }).toList();
-              },
-            ),
-          ],
-        ),
         body: Padding(
           padding: EdgeInsets.all(10.0),
           child: _list.elementAt(_selectedIndex),
